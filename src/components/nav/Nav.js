@@ -1,6 +1,8 @@
 import './Nav.css';
+import { useState, useEffect } from 'react';
 
 const Nav = () => {
+
     return( 
     <nav>
         <section>
@@ -34,6 +36,7 @@ const Nav = () => {
                         fill="currentColor">
                     </path>
                 </svg>
+                <p>Children</p>
                 <svg 
                     width="24" 
                     height="24" 
@@ -48,7 +51,6 @@ const Nav = () => {
                         fill="currentColor">
                     </path>
                 </svg>
-                <p>Kids</p>
                 <img class="nav_avatar" 
                     src="https://occ-0-3709-3662.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABQnOnMxhb19v9lQZScL86ZpnI21__HC3fseri3xG_4k-rYBafycfVvfsw_SqXVYXJJrelgRPF-eed5E69w1GQ3rq-CxZLW0.png?r=a4b" 
                     alt="avatar"
