@@ -1,6 +1,6 @@
 const RowData = [
     {
-      title: 'Trending',
+      title: 'Trending Now',
       url: '/trending/all/day',
     },
     {
@@ -8,7 +8,7 @@ const RowData = [
       url: '/discover/movie?sort_by=popularity.desc',
     },
     {
-      title: 'Rated',
+      title: 'Top Rated',
       url: '/movie/top_rated',
     },
     {

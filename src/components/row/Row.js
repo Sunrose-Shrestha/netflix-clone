@@ -12,15 +12,15 @@ export default function Row(props) {
     }
 
     useEffect(() => {
-        fetchMovies()
-    }, [])
+        fetchMovies();
+    }, []);
 
     return (
         <div className='row_wrapper'>
             <h3 className='row_title'>{props.title}</h3>
             <div className='row_cards'>
                 {movies.map((el) => {
-                    return <Card title={el.title} poster={el.poster_path} />
+                    return <Card title={el.title} poster={el.poster_path} id={el.id} />
                 })}
             </div>
         </div>
